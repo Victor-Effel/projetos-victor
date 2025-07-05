@@ -7,7 +7,17 @@ public class Endereco {
     private String numero;
     private String complemento;
 
-TEST
+    public Endereco(String nomeDaRua, String cidade, String estado, String pais,
+                    String cep, String numero, String complemento) {
+        this.nomeDaRua = nomeDaRua;
+        this.cidade = cidade;
+        this.estado = estado;
+        this.pais = pais;
+        this.cep = cep;
+        this.numero = numero;
+        this.complemento = complemento;
+    }
+
     public String toString() {
         return nomeDaRua + ", " + numero + " - " + complemento + ", " +
                cidade + " - " + estado + ", " + pais + ". CEP: " + cep;
