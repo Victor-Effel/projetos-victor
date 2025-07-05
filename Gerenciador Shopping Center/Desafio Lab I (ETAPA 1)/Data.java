@@ -35,7 +35,8 @@ public class Data {
         return dia + "/" + mes + "/" + ano;
     }
 
-Victor
+    public int getDia() {
+        return dia;
     }
 
     public int getMes() {
